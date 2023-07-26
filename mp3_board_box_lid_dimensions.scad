@@ -1,4 +1,5 @@
 board_with_card_w = 51.25;
+// board_only_w is circut board only, not including protusion of USB port and microSD slot.
 board_only_w = 45.5;
 board_l = 36;
 board_h = 1.5;
