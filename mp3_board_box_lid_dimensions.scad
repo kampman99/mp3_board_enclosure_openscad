@@ -1,7 +1,7 @@
 board_with_card_w = 51.25;
 // board_only_w is circut board only, not including protusion of USB port and microSD slot.
-board_only_w = 45.5;
-board_l = 36;
+board_only_w = 46;
+board_l = 36.5;
 board_h = 1.5;
 
 floor_below_posts = 1;
@@ -20,11 +20,11 @@ micro_usb_opening_h = 8;
 
 right_front_wall_w = 12;
 right_back_wall_w = 13;
-headphone_jack_opening_h = 9;
+headphone_jack_opening_h = 7;
 
 left_front_wall_w = 3;
 left_back_wall_w = 2;
-usb_opening_w = 15;
-usb_opening_h = 8;
+usb_opening_w = 16;
+usb_opening_h = 9;
 microsd_opening_w = 15;
 microsd_opening_h = 5;
