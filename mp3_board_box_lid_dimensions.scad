@@ -23,8 +23,14 @@ right_back_wall_w = 13;
 headphone_jack_opening_h = 7;
 
 left_front_wall_w = 3;
-left_back_wall_w = 2;
+left_back_wall_w = 1;
 usb_opening_w = 16;
 usb_opening_h = 9;
-microsd_opening_w = 15;
-microsd_opening_h = 5;
+microsd_opening_w = 16;
+microsd_opening_h = 6;
+
+lid_lip_h = 4;
+
+bump_w = 1;
+bump_l = 8;
+bump_h = 1;
