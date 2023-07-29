@@ -39,6 +39,10 @@ translate([board_only_w, board_l - right_back_wall_w, 0]) {
 translate([board_only_w, right_front_wall_w, headphone_jack_opening_h + wall_thickness + floor_below_posts]) {
     cube([wall_thickness, board_l - right_front_wall_w - right_back_wall_w, wall_height - headphone_jack_opening_h]);
 }
+// wall below headphone jack
+translate([board_only_w, right_front_wall_w, 0]) {
+    cube([wall_thickness, board_l - right_front_wall_w - right_back_wall_w, wall_thickness]);
+}
 
 // back full wall
 translate([0, board_l, 0]) {
@@ -50,7 +54,7 @@ translate([0, board_l, 0]) {
 translate([-wall_thickness, -wall_thickness, 0]) {
     color([0, 1, 0])
     cube([wall_thickness, board_l + wall_thickness + wall_thickness,
-        floor_below_posts + wall_thickness + board_h]);
+        floor_below_posts + wall_thickness]);
 }
 // left side of USB
 translate([-wall_thickness, board_l - left_back_wall_w, 0]) {
