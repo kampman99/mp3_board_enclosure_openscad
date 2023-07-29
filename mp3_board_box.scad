@@ -76,18 +76,21 @@ translate([-wall_thickness, 0, floor_below_posts + wall_thickness + microsd_open
     cube([wall_thickness, left_front_wall_w + microsd_opening_w, wall_height - microsd_opening_h]);
 }
 
+// Note: The lid is so tight that the bumps were in the way of putting the lid on and they
+// weren't needed anyway.
+
 // left bump (this protusion is 90% the size of the cavity in the lid)
-color([1, 0, 1])
-translate([-wall_thickness - bump_w * .9,
-    board_l / 2 - bump_l *.9 / 2,
-    wall_height_full - lid_lip_h / 2 - bump_h * .9 / 2]) {
-    cube([bump_w * .9, bump_l * .9, bump_h * .9]);
-}
+//color([1, 0, 1])
+//translate([-wall_thickness - bump_w * .9,
+//    board_l / 2 - bump_l *.9 / 2,
+//    wall_height_full - lid_lip_h / 2 - bump_h * .9 / 2]) {
+//    cube([bump_w * .9, bump_l * .9, bump_h * .9]);
+//}
 
 // right bump (this protusion is 90% the size of the cavity in the lid)
-color([1, 0, 1])
-translate([board_only_w + wall_thickness,
-    board_l / 2 - bump_l *.9 / 2,
-    wall_height_full - lid_lip_h / 2 - bump_h * .9 / 2]) {
-    cube([bump_w * .9, bump_l * .9, bump_h * .9]);
-}
+//color([1, 0, 1])
+//translate([board_only_w + wall_thickness,
+//    board_l / 2 - bump_l *.9 / 2,
+//    wall_height_full - lid_lip_h / 2 - bump_h * .9 / 2]) {
+//    cube([bump_w * .9, bump_l * .9, bump_h * .9]);
+//}
